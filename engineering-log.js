@@ -35,6 +35,7 @@ var engineeringLogEntries = [
     poster: 'assets/engineering-log/images/job-hunter-thumbnail.png'
   }
 }
+];
 
 
 
