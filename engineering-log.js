@@ -26,7 +26,7 @@ var engineeringLogEntries = [
     title: 'Personal AI Job Hunter',
     description: 'An automated job-hunting workflow designed to collect relevant job opportunities, evaluate matches, reduce duplicate listings, and deliver notifications.',
     category: 'Automation',
-    technologies: ['n8n', 'AI', 'Oracle Database', 'Telegram'],
+    technologies: ['n8n', 'Docker', 'Oracle Database', 'Telegram'],
     date: '2026-10',
     result: 'Workflow demonstration: job discovery and automated notifications.',
     video: {
