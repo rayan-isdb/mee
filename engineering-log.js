@@ -30,7 +30,7 @@ var engineeringLogEntries = [
     date: '2026-10',
     result: 'Workflow demonstration: job discovery and automated notifications.',
     video: {
-      src: 'assets/engineering-log/videos/job-hunter-workflow.mp4'
+      src: 'assets/engineering-log/videos/job-hunter.mp4'
     }
   }
 ];
