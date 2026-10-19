@@ -165,7 +165,13 @@ var engineeringLogEntries = [
   function note(li) {
     if (!li.querySelector('.el-note')) li.appendChild(el('span', 'el-note', 'File not found'));
   }
-
+console.log('Engineering Log entries:', engineeringLogEntries);
+console.log(
+  'Leave Application found:',
+  engineeringLogEntries.some(function (e) {
+    return e.id === 'leave-application-rest-api';
+  })
+);
   function render() {
     gridEl.textContent = '';
     var shown = engineeringLogEntries.filter(function (e) { return active === 'All' || e.category === active; });
