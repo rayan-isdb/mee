@@ -284,6 +284,7 @@ footer a:hover{text-decoration:underline;}
   border-radius:10px;
 }
 </style>
+<link rel="stylesheet" href="css/engineering-log.css">
 </head>
 <body>
 
@@ -526,8 +527,16 @@ footer a:hover{text-decoration:underline;}
     </div>
 
   </div>
+  <!-- Engineering Log -->
 </section>
-
+<section id="engineering-log" aria-labelledby="el-heading">
+  <p class="sec-tag reveal">Work Journal</p>
+  <h2 class="sec-title reveal" id="el-heading">Engineering Log</h2>
+  <p class="sec-desc reveal">Small fixes. Real work. A closer look at how I solve problems, build solutions, and learn through implementation.</p>
+  <div class="el-filters" role="group" aria-label="Filter engineering log by category"></div>
+  <div class="el-grid" aria-live="polite"></div>
+  <p class="el-empty" hidden></p>
+</section>
 <!-- SERVICES -->
 <section id="services" class="services-wrap">
   <p class="sec-tag reveal">What I Do</p>
@@ -675,5 +684,6 @@ window.sendWhatsApp=function(){
   window.location.href='https://wa.me/8801878228713?text='+encodeURIComponent(txt);
 };
 </script>
+<script src="js/engineering-log.js"></script>
 </body>
 </html>
