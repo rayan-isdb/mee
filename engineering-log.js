@@ -19,17 +19,22 @@
      ================================================================ */
   var CATEGORIES = ['All', 'Oracle SQL', 'PL/SQL', 'Oracle APEX', 'Frontend', 'Automation', 'API Integration', 'Database', 'Other'];
 
-  var engineeringLogEntries = [
-    {
-      id: 'sample-entry',
-      title: 'Sample entry (replace me)',
-      description: 'Demo card showing the layout. Delete this object and add your real work.',
-      category: 'Other',
-      technologies: ['Oracle APEX', 'SQL'],
-      date: '2026-10',
-      result: 'Sample text only — not a real result.'
+ 
+var engineeringLogEntries = [
+  {
+    id: 'job-hunter-workflow',
+    title: 'Personal AI Job Hunter',
+    description: 'An automated job-hunting workflow designed to collect relevant job opportunities, evaluate matches, reduce duplicate listings, and deliver notifications.',
+    category: 'Automation',
+    technologies: ['n8n', 'AI', 'Oracle Database', 'Telegram'],
+    date: '2026-10',
+    result: 'Workflow demonstration: job discovery and automated notifications.',
+    video: {
+      src: 'assets/engineering-log/videos/job-hunter-workflow.mp4'
     }
-  ];
+  }
+];
+
 
   /* ================= rendering & interaction ================= */
   var root = document.getElementById('engineering-log');
