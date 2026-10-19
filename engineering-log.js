@@ -21,19 +21,21 @@
 
  
 var engineeringLogEntries = [
-  {
-    id: 'job-hunter-workflow',
-    title: 'Personal AI Job Hunter',
-    description: 'An automated job-hunting workflow designed to collect relevant job opportunities, evaluate matches, reduce duplicate listings, and deliver notifications.',
-    category: 'Automation',
-    technologies: ['n8n', 'Docker', 'Oracle Database', 'Telegram'],
-    date: '2026-10',
-    result: 'Workflow demonstration: job discovery and automated notifications.',
-    video: {
-      src: 'assets/engineering-log/videos/job-hunter.mp4'
-    }
+{
+  id: 'job-hunter-workflow',
+  title: 'Personal AI Job Hunter',
+  description: 'An automated workflow for discovering relevant job opportunities and streamlining job-search activities.',
+  category: 'Automation',
+  technologies: ['n8n', 'AI', 'Oracle Database', 'Telegram'],
+  date: '2026-10',
+  result: 'Job Hunter workflow demonstration.',
+  thumbnail: 'assets/engineering-log/images/job-hunter-thumbnail.png',
+  video: {
+    src: 'assets/engineering-log/videos/job-hunter.mp4',
+    poster: 'assets/engineering-log/images/job-hunter-thumbnail.png'
   }
-];
+}
+
 
 
   /* ================= rendering & interaction ================= */
