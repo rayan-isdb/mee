@@ -19,6 +19,27 @@ var engineeringLogEntries = [
     src: 'assets/engineering-log/videos/job-hunter.mp4',
     poster: 'assets/engineering-log/images/job-hunter-thumbnail.png'
   }
+},
+  {
+  id: 'leave-application-rest-api',
+  title: 'Leave Application — REST API Integration',
+  description: 'Implemented a token-based leave approval workflow using Oracle REST Data Services (ORDS), with role-specific Manager and HR decisions, approval status transitions, token generation, email notifications, and history logging.',
+  category: 'API Integration',
+  technologies: [
+    'Oracle APEX',
+    'Oracle PL/SQL',
+    'ORDS',
+    'REST API',
+    'Token-Based Authorization'
+  ],
+  date: '2026-10',
+  result: 'Structured leave approval workflow with token validation, role-based decisions, status tracking, notifications, and approval history.',
+  images: [
+    {
+      src: 'assets/engineering-log/images/leave-application-workflow.png',
+      alt: 'Leave application REST API integration workflow showing token validation, Manager and HR decisions, status transitions, and notifications'
+    }
+  ]
 }
 ];
 
