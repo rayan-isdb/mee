@@ -1,22 +1,7 @@
 /* Engineering Log — self-contained (IIFE). Only touches #engineering-log and its own #el-lightbox. */
 (function () {
   'use strict';
-
-  /* ================================================================
-     CONTENT — edit ONLY this array to manage entries.
-     All paths are RELATIVE (no leading "/") so they work at /mee/.
-
-     ADD an entry:       copy an object below, give it a unique `id`.
-     ADD screenshots:    images: [{ src:'assets/engineering-log/images/fix-1.png', alt:'Describe the image' }, ...]
-     ADD a video:        video: { src:'assets/engineering-log/videos/demo.mp4', poster:'assets/engineering-log/images/demo.jpg' }
-                         (or an external video: video: { url:'https://youtu.be/...' } — large files should go here)
-     ATTACH documents:   documents: [{ name:'Query script', path:'assets/engineering-log/documents/query.sql' }]
-                         (type is taken from the extension; use `url:` instead of `path:` for external files)
-     ADD GitHub link:    sourceUrl: 'https://github.com/rayan-isdb/your-repo'
-     CHANGE category:    category: one of CATEGORIES below
-     REMOVE an entry:    delete its { ... } object (or comment it out)
-     Optional fields: thumbnail, images, video, documents, sourceUrl, result, date, technologies.
-     ================================================================ */
+  
   var CATEGORIES = ['All', 'Oracle SQL', 'PL/SQL', 'Oracle APEX', 'Frontend', 'Automation', 'API Integration', 'Database', 'Other'];
 
  
